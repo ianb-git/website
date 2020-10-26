@@ -1,9 +1,17 @@
-body {
-  color: white;
-  background: black;
-  
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
-h1 {
-  color: green;
+body {
+  color: #444;
+  font-family: monospace, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  padding: 1em;
+  margin: auto;
+  max-width: 52em;
+  background: #fefefe;
 }
