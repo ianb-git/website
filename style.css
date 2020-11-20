@@ -1,17 +1,40 @@
-html {
-  font-size: 100%;
-  overflow-y: scroll;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+body {
+    font: 16px/1.4 sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-body {
-  color: #444;
-  font-family: monospace, sans-serif;
-  font-size: 14px;
-  line-height: 1.5em;
-  padding: 1em;
-  margin: auto;
-  max-width: 52em;
-  background: #fefefe;
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+/* Blockquotes */
+blockquote {
+    background: blanchedalmond;
+    font-size: 120%;
+    margin: 2rem auto;
+    padding: 10px;
+}
+blockquote p {
+    margin: 0;
+}
+
+/* Syntax */
+pre {
+    margin: 0;
+}
+.highlight {
+    background: #eee;
+    margin: 2rem 0;
+    overflow: auto;
+    padding: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    html { background: #1c1c1c; color: white; }
+    a { color: #6bf; }
+    a:visited { color: #f8f; }
+    a:active { color: red; }
 }
